@@ -1,0 +1,102 @@
+/* Import Google font from: https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Geostar+Fill');
+
+/* Global Styling */
+
+a{
+	color: #909496;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #2980b9;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	background-color: #141D26;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* Main Header Styling */
+
+main{
+	flex: 1 0 auto;
+}
+
+#main-header{
+	color: #909496;
+	background-color: #000000;
+	font-family: 'Geostar Fill', cursive;
+}
+
+#main-header .wrapper{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	display: flex;
+	height: 100px;
+}
+
+#main-header #arrow-left-icon{
+	left: 0;
+	top: 50%;
+	font-size: 50px;
+	position: absolute;
+	transform: translateY(-50%);
+}
+
+/* Main Content Styling */
+
+main article{
+	margin: 20px 0;
+	padding: 30px 50px;
+	border-radius: 20px;
+	background-color: #FFF;
+	box-shadow: 0 0 4px 2px #000000 inset;
+}
+
+main article > header{
+	text-align: center;
+}
+
+main article div.content{
+	margin: 30px 0;
+}
+
+main article footer{
+	justify-content: space-between;
+	display: flex;
+}
+
+main article footer .thumb-button{
+	justify-content: space-between;
+	outline: 1px solid #2980b9;
+	background-color:#909496;
+	display: inline-flex;
+	align-items: center;
+	padding: 4px 8px;
+	cursor: pointer;
+	width: 60px;
+}
+
+/* Main Footer Styling */
+
+#main-footer{
+	padding: 5px 0;
+	color: #FFFFFF;
+	text-align: center;
+	font-style: italic;
+	background-color: #000000;
+}
