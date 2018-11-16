@@ -1,8 +1,7 @@
 # Yrgo-assignments
 Assignments from School ( Yrgo ) Gothenburg : 2018-09-03 - 2020-05-29
 
-This repository contains diferent branhes with assignment-files
-Browse to view, here is a list:
+This repository contains diferent branhes with assignment-files, here is a list:
 
 |Assignment|Date and Time|Course or other|
 |-|-|-|
