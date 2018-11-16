@@ -1,0 +1,17 @@
+SELECT make, color, LicenseNumber
+        FROM cars
+        NATURAL JOIN colors
+        NATURAL JOIN makes
+        WHERE color = 'Silver';
+
+SELECT make, color, LicenseNumber
+        FROM cars
+        NATURAL JOIN colors
+        NATURAL JOIN makes
+        WHERE make = 'Dodge';
+
+SELECT make, color, LicenseNumber
+        FROM cars
+        NATURAL JOIN colors
+        NATURAL JOIN makes
+        WHERE make = 'Mazda' AND color = 'Red';

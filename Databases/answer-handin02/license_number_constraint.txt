@@ -1,0 +1,1 @@
+CREATE TABLE cars2(LicenseNumber TEXT PRIMARY KEY CHECK( LicenseNumber GLOB '[A-Z][A-Z][A-Z] [0-9][0-9][0-9]' ));

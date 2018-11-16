@@ -1,0 +1,8 @@
+.once answer-handin01/silver-fords.txt
+SELECT LicenseNumber, Make, Color FROM cars WHERE Color='Silver' AND Make='Ford' ORDER BY LicenseNumber ASC;
+
+.once answer-handin01/pink-chevies.txt
+SELECT LicenseNumber, Make, Color FROM cars WHERE Color='Pink' AND Make='Chevrolet' AND LicenseNumber LIKE '%5' ORDER BY LicenseNumber ASC;
+
+.once answer-handin01/bad-cars.txt
+SELECT LicenseNumber FROM cars WHERE substr(LicenseNumber,1,3) IN (SELECT combo FROM banned);
