@@ -32,5 +32,5 @@ This repository contains directories with assignment-files, here is a list:
 ##### Databaser - Nahid Vafaie
 
 |Course|Date & Time|
-|-|-|-|
+|-|-|
 |[Databases](https://github.com/freddan88/Yrgo-assignments/tree/master/Databases)|Multiple|
