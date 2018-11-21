@@ -3,19 +3,34 @@ Assignments from School ( Yrgo ) Gothenburg : 2018-09-03 - 2020-05-29
 
 This repository contains directories with assignment-files, here is a list:
 
-##Assignments
+---
 
-####Projekt
-|FastSecurity|30/11 2018 09:00|[Info](https://yrgo.github.io/projects/fs)|
+##### Projekt
 
-####PHP - Vincent Klaiber
-|Fake News|31/10 2018 23:59|[Info](https://github.com/freddan88/Yrgo-assignments/tree/master/Fake%20News)|
+|Assignment|Date & Time|Information|
+|-|-|-|
+|FastSecurity|30/11 2018 09:00|[Read More](https://yrgo.github.io/projects/fs)|
 
-####JavaScript - Elina Åberg
-|Fuzzy Memory|04/12 2018 09:00|[Info](https://github.com/yrgo/wu18/tree/master/JavaScript/08%20-%20Fuzzy%20Memory)|
+##### PHP - Vincent Klaiber
 
-####Databaser - Nahid Vafaie
+|Assignment|Date & Time|Information|
+|-|-|-|
+|Fake News|31/10 2018 23:59|[Read More](https://github.com/freddan88/Yrgo-assignments/tree/master/Fake%20News)|
+
+##### JavaScript - Elina Åberg
+
+|Assignment|Date & Time|Information|
+|-|-|-|
+|Fuzzy Memory|04/12 2018 09:00|[Read More](https://github.com/yrgo/wu18/tree/master/JavaScript/08%20-%20Fuzzy%20Memory)|
+
+##### Databaser - Nahid Vafaie
+
+|Assignment|Date & Time|Information|
+|-|-|-|
 |[Databases](https://github.com/freddan88/Yrgo-assignments/tree/master/Databases)|Multiple|Browse files on GitHub|
 
-####Visuell kommunikation - Alex Tengner
+##### Visuell kommunikation - Alex Tengner
+
+|Assignment|Date & Time|
+|-|-|
 |One-pager|13/12 2018 13:00|
