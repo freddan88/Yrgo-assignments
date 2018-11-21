@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>css-variables</title>
+    <style>
+      :root {
+        --color-kay: #2ecc40;
+        --color-edwards: #b10dc9;
+      }
+
+      body {
+        font-family: Helvetica;
+      }
+
+      .kay {
+        color: var(--color-kay);
+      }
+
+      .edwards {
+        color: var(--color-edwards);
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <h1>Men in Black</h1>
+      <p><strong class="edwards">Edwards:</strong> Why the big secret? People are smart. They can handle it.</p>
+      <p><strong class="kay">Kay:</strong> A person is smart. People are dumb, panicky dangerous animals and you know it. Fifteen hundred years ago everybody knew the Earth was the center of the universe. Five hundred years ago, everybody knew the Earth was flat, and fifteen minutes ago, you knew that humans were alone on this planet. Imagine what you'll know tomorrow.</p>
+      <p><strong class="edwards">Edwards:</strong> What's the catch?</p>
+      <p><strong class="kay">Kay:</strong> The catch? The catch is you will sever every human contact. Nobody will ever know you exist anywhere. Ever. I'll give you to sunrise to think it over.</p>
+      <p><strong class="edwards">Edwards:</strong> Hey! Is it worth it?</p>
+      <p><strong class="kay">Kay:</strong> Oh yeah, it's worth it... ...if you're strong enough!</p>
+    </article>
+  </body>
+</html>
