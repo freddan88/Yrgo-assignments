@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  background-color: #CDE5FF;
+  background-image: url(./img/bg1.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.main-content{
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  height: calc(100vh - 40px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Crete Round', serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a{
+  color: #D1B07B;
+  text-decoration: none;
+}
+
+/* Start styling aside - sidebar */
+
+aside.sidebar{
+  color: white;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 400px;
+          flex: 0 0 400px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 5px 0 0 5px;
+  text-transform: uppercase;
+}
+
+aside div.info{
+  width: 360px;
+  padding: 5px 10px;
+  background-color: white;
+  margin: 30px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-shadow: 0 0 5px 1px grey inset;
+          box-shadow: 0 0 5px 1px grey inset;
+  border-radius: 5px;
+  color: black;
+}
+
+aside.sidebar ul:first-of-type li{
+  border-left: 4px solid crimson;
+  padding-left: 4px;
+}
+
+aside p.textblock, aside ul{
+  text-align: left;
+  padding: 0;
+  padding-top: 15px;
+  list-style: none;
+}
+
+/* End styling aside - sidebar */
+
+/* Start styling section - play-area and cards */
+
+section.play-area{
+  margin: 0 12.5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 555px;
+          flex: 0 0 555px;
+  display: grid;
+  grid-gap: 5px;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,165px);
+}
+
+.paused-screen {
+  background-color: black;
+  border: 5px solid white;
+  color: #CDE4FF;
+  text-shadow: -1px 0 #D1B07B, 0 1px #D1B07B, 1px 0 #D1B07B, 0 -1px #D1B07B;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 50;
+  width: 555px;
+  height: 670px;
+  left: 50%;
+  -webkit-transform: translateX(-34%);
+          transform: translateX(-34%);
+
+}
+
+.paused-screen.display-none{
+  display: none;
+}
+
+.paused-screen p, .fa{
+  font-size: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.paused-screen .fa {
+  font-size: 40px;
+}
+.paused-screen button {
+  cursor: pointer;
+  background-color: #FCD200;
+  border: 2px solid #D1B07B;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-weight: bold;
+  padding: 20px 0;
+  width: 200px;
+  outline: 0;
+}
+
+.paused-screen button:hover {
+  background-color: #4E90CC;
+}
+
+.paused-screen .img-div {
+  -ms-flex-item-align: center;
+      align-self: center;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+}
+
+.play-area .card{
+  position: relative;
+  background-color: #FFF;
+  border: 1px solid black;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card, .card__front{
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__front{
+  width: 100%;
+  z-index: 10;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  background-color: #FED41E;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card.flipped {
+  cursor: not-allowed;
+  pointer-events: none;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+/* End styling section - play-area and cards */
+
+div.game-data{
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 0 5px 5px 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
