@@ -11,25 +11,25 @@ This repository contains directories with assignment-files, here is a list:
 |-|-|-|
 |FastSecurity|30/11 2018 09:00|[Read More](https://yrgo.github.io/projects/fs)|
 
-##### PHP - Vincent Klaiber
+##### PHP
 
 |Assignment Name|Date & Time|Information|
 |-|-|-|
-|Fake News|31/10 2018 23:59|[Read More](https://github.com/freddan88/Yrgo-assignments/tree/master/Fake%20News)|
+|Fake News|31/10 2018 23:59|[Read More](https://github.com/freddan88/Yrgo-assignments/tree/master/PHP/Fake%20News)|
 
-##### JavaScript - Elina Åberg
+##### JavaScript
 
 |Assignment Name|Date & Time|Information|
 |-|-|-|
-|Fuzzy Memory|04/12 2018 09:00|[Read More](https://github.com/yrgo/wu18/tree/master/JavaScript/08%20-%20Fuzzy%20Memory)|
+|Fuzzy Memory|04/12 2018 09:00|[Read More](https://github.com/freddan88/Yrgo-assignments/tree/master/JavaScript/fuzzy-memory)|
 
-##### Visuell kommunikation - Alex Tengner
+##### Visuell kommunikation
 
 |Assignment Name|Date & Time|
 |-|-|
 |One-pager|13/12 2018 13:00|
 
-##### Databaser - Nahid Vafaie
+##### Databaser
 
 |Course|Date & Time|
 |-|-|
