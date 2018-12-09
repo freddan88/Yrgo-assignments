@@ -1,4 +1,4 @@
-### Assignment 2 fuzzy-memory - Yrgo
+### Assignment 2 Javascript, fuzzy-memory:
 
 > Our first assignment in javascript at Yrgo in Sweden Gothenburg. Deadline for: 2018-12-04 09:00 <br/>
 This assignment is called Fuzzy-Memory and is a memory game built with pure javascript (vanilla) <br/> themed with characters and sounds from the Simpsons series, have fun...
@@ -8,10 +8,23 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 [Code License: MIT](https://choosealicense.com/licenses/mit/)
 
-1. Click the green button "clone or download" at top of this github repository \
-*( You can use git from your terminal or GitHub Desktop to clone this repository aswell)*
-2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"
+~~1. Click the green button "clone or download" at top of this github repository~~
+
+~~*( You can use git from your terminal or GitHub Desktop to clone this repository aswell)*~~
+
+~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
+
+1. [Click this link to download this repository as a zip-file]()
+
+2. On Linux/Mac/BSD you can use wget from your terminal
+
 3. Extract the compressed zip-archive to your desktop and open index.html with preferably firefox or google chrome
+
+*Example wget*
+```bash
+wget https: -O fuzzy-memory.zip
+unzip fuzzy-memory.zip
+```
 
 ((You can also host this application on a web server))
 
@@ -24,8 +37,8 @@ _HTML CSS Javascript Markdown <- Readme.md_
 - [LAMP CentOS7](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7 "Install LAMP on CentOS7 Linux")
 - [Git](https://git-scm.com/downloads "Git downloads Mac Windows Linux/Unix") if you need or want to clone this repository to your computer
 
-*Example Git Clone*
-```git
+~~*Example Git Clone*~~
+```bash
 git clone https://github.com/freddan88/fuzzy-memory.git
 ```
 
@@ -92,6 +105,7 @@ Authors:
 ---
 
 #### More:
+[YouTube - freeCodeCamp.org (Memory Card Game - JavaScript Tutorial)](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1s)
 https://css-tricks.com/snippets/javascript/shuffle-array/
 
 Yrgo - Assignment 2 ( Javascript ) - December 04 2018 09:00 URL [www.leemann.se/fredrik](http://www.leemann.se/fredrik)

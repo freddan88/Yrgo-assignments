@@ -1,6 +1,6 @@
 # FS1.0 FastSecurity
 ​
-Our mission was to build a page for the company Saab and its future flying car. The group consisted of Digital designers, Web developers, and Computer graphic designers 
+Our mission was to build a page for the company Saab [fake] and its future flying car. The group consisted of Digital designers, Web developers, and Computer graphic designers 
 ​
 ​
 ## Goals and mission 
@@ -18,13 +18,15 @@ Our mission was to build a page for the company Saab and its future flying car. 
  
 # The Team:
  
-### Webbutvecklare 
+### Web Developers
 Fredrik Leemann, Sofia García
-### Digital Designers 
+(**Webpage**)
+### Digital Designers
 Dennis Lind, Eric Ellersten
-### Computer Graphic Designers 
+(**Design and PDF**)
+### Computer Graphic Designers
 Frida Staffansson, Viktor Larsson
-​
+(**Pictures**)
 ## How to use? 
 You need a server in order to run the software for example [MAMP](https://www.mamp.info/en/) 
 Either clone or download the repository and open index.php
@@ -39,4 +41,3 @@ Change the root of your webserver and point where all the files are located for 
 ## License
 ​
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-Collapse
