@@ -105,7 +105,7 @@ Authors:
 ---
 
 #### More:
-[YouTube - freeCodeCamp.org (Memory Card Game - JavaScript Tutorial)](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1s)
-https://css-tricks.com/snippets/javascript/shuffle-array/
+* [YouTube - freeCodeCamp.org (Memory Card Game - JavaScript Tutorial)](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1s)
+* https://css-tricks.com/snippets/javascript/shuffle-array/
 
 Yrgo - Assignment 2 ( Javascript ) - December 04 2018 09:00 URL [www.leemann.se/fredrik](http://www.leemann.se/fredrik)
