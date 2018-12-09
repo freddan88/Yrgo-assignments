@@ -17,14 +17,27 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 
 ![Github Repository](https://github.com/freddan88/fakenews/blob/master/screenshots/screenshot-github.png)
 
-1. Click the green button "clone or download" at top of this github repository \
-*( You can use git from your terminal or GitHub Desktop to clone this repository )*
-2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"
+~~1. Click the green button "clone or download" at top of this github repository \~~
+
+~~*( You can use git from your terminal or GitHub Desktop to clone this repository )*~~
+
+~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
+
+1. HEJ
+
+2. DÅ
+
 3. Extract the compressed zip-archive to the root-folder of your webserver
+
 4. Start your webserver (xampp/wamp/mamp/lamp) and open the webpage in your browser
 
-*Example Git Clone*
-```git
+*Example wget*
+```bash
+wget 
+```
+
+~~*Example Git Clone*~~
+```bash
 git clone https://github.com/freddan88/fakenews.git
 ```
 
@@ -99,7 +112,27 @@ XAMP v3.2.2|v7.2.5|v2.4.33
 
 #### Some programing-snippets from this project
 
-*Javascript*
+*New javascript*
+```javascript
+'use strict';
+
+const buttons = document.querySelectorAll('.thumb-button');
+const btnArray = Array.from(buttons);
+
+btnArray.forEach((button)=>{
+	let numLikes = parseInt(button.querySelector('span').innerText, 10);
+
+	button.addEventListener('click',()=>{
+
+		if(numLikes === 50){
+			return;
+		}
+		button.querySelector('span').innerText = ++numLikes;
+	});
+});
+```
+
+*Old Javascript*
 ```javascript
     'use strict';
 

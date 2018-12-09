@@ -1,5 +1,4 @@
 'use strict';
-
 const buttons = document.querySelectorAll('.thumb-button');
 const btnArray = Array.from(buttons);
 
@@ -11,6 +10,7 @@ btnArray.forEach((button)=>{
 		if(numLikes === 50){
 			return;
 		}
+
 		button.querySelector('span').innerText = ++numLikes;
 	});
 });
