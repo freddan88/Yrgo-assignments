@@ -1,7 +1,7 @@
 # Yrgo-assignments/Fake News
 Assignments from School ( Yrgo ) Gothenburg : 2018-09-03 - 2020-05-29
 
-### Assignment 1 Fake News Yrgo
+### Assignment 1 ( PHP ) Fake News
 
 > Our first assignment in php at Yrgo in Sweden Gothenburg. Deadline for: 2018-10-31 23:59 \
 This assignment is called Fake News and I have generated text from StarTrek ipsum to use as articles \
@@ -23,7 +23,7 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 
 ~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
 
-1. [Click this link to download this repository as a zip-file](https://github.com/freddan88/Yrgo-assignments/raw/master/03_PHP/Fake%20News/assets/fake-news.zip)
+1. [Click this link to download this repository as a zip-file](https://github.com/freddan88/Yrgo-assignments/raw/master/03_PHP/fake-news/assets/fake-news.zip)
 
 2. On Linux/Mac/BSD you can use wget from your terminal
 
@@ -33,7 +33,8 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 
 *Example wget*
 ```bash
-wget -O fake-news.zip
+wget https://bit.ly/2RJXVrJ -O fake-news.zip
+unzip fake-news.zip
 ```
 
 ~~*Example Git Clone*~~
