@@ -1,7 +1,7 @@
 # Yrgo-assignments/Fake News
 Assignments from School ( Yrgo ) Gothenburg : 2018-09-03 - 2020-05-29
 
-### Assignment 1 FakeNews Yrgo
+### Assignment 1 Fake News Yrgo
 
 > Our first assignment in php at Yrgo in Sweden Gothenburg. Deadline for: 2018-10-31 23:59 \
 This assignment is called Fake News and I have generated text from StarTrek ipsum to use as articles \
@@ -15,17 +15,17 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 
 #### Installation
 
-![Github Repository](https://github.com/freddan88/fakenews/blob/master/screenshots/screenshot-github.png)
+![Github Repository](https://github.com/freddan88/Yrgo-assignments/blob/master/03_PHP/fake-news/screenshots/screenshot-github.png)
 
-~~1. Click the green button "clone or download" at top of this github repository \~~
+~~1. Click the green button "clone or download" at top of this github repository~~
 
 ~~*( You can use git from your terminal or GitHub Desktop to clone this repository )*~~
 
 ~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
 
-1. HEJ
+1. [Click this link to download this repository as a zip-file](https://github.com/freddan88/Yrgo-assignments/raw/master/03_PHP/Fake%20News/assets/fake-news.zip)
 
-2. DÅ
+2. On Linux/Mac/BSD you can use wget from your terminal
 
 3. Extract the compressed zip-archive to the root-folder of your webserver
 
@@ -33,7 +33,7 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 
 *Example wget*
 ```bash
-wget 
+wget -O fake-news.zip
 ```
 
 ~~*Example Git Clone*~~
@@ -54,17 +54,15 @@ pre-requirements:
 #### Usage
 
 * Start your browser and point the URL to this folder
-* The URL will vary depending on if you downloaded or cloned this repository
 
-**Examples:** \
-_http://{webserver}/fakenews_ \
-_http://{webserver}/fakenews-master_
+**Example:**
+_http://{webserver}/fake-news_
 
-![Startpage](https://github.com/freddan88/fakenews/blob/master/screenshots/screenshot-startpage.png)
+![Startpage](https://github.com/freddan88/Yrgo-assignments/blob/master/03_PHP/fake-news/screenshots/screenshot-startpage.png)
 *The above picture is the startpage were you can read all articles. They are sorted on date with the latest date first.
 If you press thumb-up or thumb-down you will add likes or dislikes. Every author will have a link to wikipedia, clicking this link will open a new tabb in your browser. Every authors name are linked to the page below "authors.php"...*
 
-![Authorpage](https://github.com/freddan88/fakenews/blob/master/screenshots/screenshot-authorpage.png)
+![Authorpage](https://github.com/freddan88/Yrgo-assignments/blob/master/03_PHP/fake-news/screenshots/screenshot-authorpage.png)
 *The above picture is the authorspage which will filter the output to only show articles from a single author.
 This page also includes links to the authors wikipedia-page and also a link to authors.php for the current author.
 The arrow in the header will link you back to the startpage again...*
