@@ -14,7 +14,7 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 ~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
 
-1. [Click this link to download this repository as a zip-file]()
+1. [Click this link to download this repository as a zip-file](https://github.com/freddan88/Yrgo-assignments/raw/master/04_JavaScript/fuzzy-memory/assets/fuzzy-memory.zip)
 
 2. On Linux/Mac/BSD you can use wget from your terminal
 
@@ -22,7 +22,7 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 *Example wget*
 ```bash
-wget https: -O fuzzy-memory.zip
+wget https://bit.ly/2zQSMHw -O fuzzy-memory.zip
 unzip fuzzy-memory.zip
 ```
 
