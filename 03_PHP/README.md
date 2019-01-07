@@ -9,4 +9,5 @@ This repository contains PHP assignments, here is a list:
 
 |Assignment Name|Date & Time|Information|
 |-|-|-|
-|Fake News|31/10 2018 23:59|[Read More](https://github.com/freddan88/Yrgo-assignments/tree/master/03_PHP/fake-news)|
+|Fake News|31/10 2018 23:59|[Files](https://github.com/freddan88/Yrgo-assignments/tree/master/03_PHP/fake-news)|
+|Photoify|17/01 2019 09:00|[Files](https://github.com/freddan88/Yrgo-assignments/tree/master/03_PHP/fake-news)|
