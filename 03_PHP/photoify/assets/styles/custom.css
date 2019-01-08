@@ -1,0 +1,153 @@
+/* Global Styling */
+
+body{
+  background-color: #F8F9FA;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.my-orange-color{
+  background-color: #E34D3A !important;
+}
+
+/* Login and logout page */
+
+.login-form{
+  width: 300px;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  background-color: #E8ECEF;
+}
+
+/* Styling for account.php */
+
+div.my-post-module.border-top{
+  border-top: 62px solid #E34D3A !important;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+@media only screen and (max-width: 991px) {
+  div.my-post-module.border-top{
+    border-radius: 0px;
+  }
+  div.my-post-module.border-top__toggle{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  button.edit-account-btn, a.logout-btn{
+    padding: 1px 7px 2px;
+  }
+}
+
+li.list-group-item:first-child {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+
+div.my-radiusb-none.alert{
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  height: 62px;
+}
+
+div.warning-delete-account{
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+
+textarea.form-control{
+  resize: none;
+  height: 62px;
+  width: 100%;
+  overflow: hidden;
+}
+
+textarea.form-control.post-desc:focus{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+label.profile-input-label, label.myfile-input-label, label.update-file-label{
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  margin: 0;
+}
+
+input.profile-input-file, input.myfile-input, input.update-file-input{
+  display: none;
+}
+
+section.account-info{
+  color: #686868;
+}
+
+section.position-absolute{
+  z-index: 50;
+  width: 100%;
+  top: 0;
+}
+
+section.display-none, div.display-none {
+  display: none;
+}
+
+section.overlay-display {
+  display: block;
+}
+
+nav.main{
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+}
+
+/* Mobile menu */
+
+.mobile-menu{
+  height: 40px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamburger-menu{
+  height: 3px;
+  width: inherit;
+  border-radius: 2px;
+  background-color: #000;
+}
+
+.hamburger-menu::before, .hamburger-menu::after{
+  content: " ";
+  display: block;
+  height: inherit;
+  width: inherit;
+  background-color: inherit;
+  border-radius: inherit;
+  position: absolute;
+}
+
+.hamburger-menu::before{
+  margin-top: -8px;
+}
+
+.hamburger-menu::after {
+  margin-top: 8px;
+}
+
+/* Edit posts overlay */
+
+.edit-post-overlay{
+  width:100%;
+  height:100%;
+}
+
+/* Styling for like and dislike icons in posts */
+
+.my-like-form input[value=liked] + button .fa-heart{
+  color: red;
+}
