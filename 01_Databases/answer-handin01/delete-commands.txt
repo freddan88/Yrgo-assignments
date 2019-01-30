@@ -1,1 +1,0 @@
-DELETE FROM cars WHERE substr(LicenseNumber,1,3) IN (SELECT combo FROM banned);

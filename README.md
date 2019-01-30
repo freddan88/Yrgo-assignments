@@ -15,12 +15,12 @@ This repository contains directories with assignment-files, here is a list:
 
 ###### More:
 
-* [Sample codes and useful snippets](https://github.com/freddan88/Yrgo-assignments/tree/master/00_Sample%20Codes)
+* [Sample codes and useful snippets](https://github.com/freddan88/Yrgo-assignments/tree/master/00.Sample%20Codes)
 
-* [Databases](https://github.com/freddan88/Yrgo-assignments/tree/master/01_Databases)
+* [Databases](https://github.com/freddan88/Yrgo-assignments/tree/master/01.Databases)
 
-* [Projects and collaborations](https://github.com/freddan88/Yrgo-assignments/tree/master/05_Projects)
+* [Projects and collaborations](https://github.com/freddan88/Yrgo-assignments/tree/master/05.Projects)
 
-* [JavaScript](https://github.com/freddan88/Yrgo-assignments/tree/master/04_JavaScript)
+* [JavaScript](https://github.com/freddan88/Yrgo-assignments/tree/master/04.JavaScript)
 
-* [PHP](https://github.com/freddan88/Yrgo-assignments/tree/master/03_PHP)
+* [PHP](https://github.com/freddan88/Yrgo-assignments/tree/master/03.PHP)

@@ -1,2 +1,0 @@
-BTX 105|Chevrolet|Pink
-ESS 805|Chevrolet|Pink

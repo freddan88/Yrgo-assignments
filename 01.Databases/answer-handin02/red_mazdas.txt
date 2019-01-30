@@ -1,0 +1,17 @@
+make            color           LicenseNumber
+--------------  --------------  -------------
+Mazda           Red             LIL 348      
+Mazda           Red             PZI 944      
+Mazda           Red             WXI 853      
+Mazda           Red             IDQ 377      
+Mazda           Red             AWU 343      
+Mazda           Red             DIZ 405      
+Mazda           Red             HQU 015      
+Mazda           Red             TMM 482      
+Mazda           Red             VMS 348      
+Mazda           Red             OLV 509      
+Mazda           Red             ZCM 311      
+Mazda           Red             DNH 358      
+Mazda           Red             PAM 572      
+Mazda           Red             QTZ 384      
+Mazda           Red             EGT 698      

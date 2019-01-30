@@ -1,1 +1,0 @@
-UPDATE cars SET Color='Pink' WHERE Color='Red' AND Make='Chevrolet' AND LicenseNumber LIKE '%5';
