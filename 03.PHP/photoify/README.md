@@ -11,7 +11,7 @@ _HTML CSS PHP SQL Javascript Markdown <- Readme.md_
 [Code License: MIT](https://choosealicense.com/licenses/mit/)
 
 ### Installation:
-1. [Click this link to download this project as a zip-file](assets/photoify.zip)
+1. [Click this link to download this project as a zip-file](assets/photoify.zip?raw=true)
 3. Extract the compressed zip-archive to the root of your webserver
 4. Change the root to point to photoify or photoify-master depending on how you downloaded the project
 5. Start or restart your webserver to load the services and apply the new configuration
@@ -31,11 +31,6 @@ Guide to change the root in MAMP on Mac/Windows:<br/>
 - [Git-CLI](https://git-scm.com/downloads "Downloads for Mac Windows Linux/Unix")
 
 > Download GIT-CLI or GIT-GUI if you need or want to clone this repository to your computer...
-
-*Example Git Clone*
-```bash
-git clone https://github.com/freddan88/photoify.git
-```
 
 #### Usage:
 1. Connect to localhost with your browser (preferably google chrome or mozilla firefox)
@@ -64,7 +59,7 @@ git clone https://github.com/freddan88/photoify.git
 6. Profile-module and overview
 
 ![Mobile Account](assets/screenshots/account_post_mobile_xs.jpg) 
-![Mobile Menu](photoify/assets/screenshots/account_menu_mobile_xs.jpg)
+![Mobile Menu](assets/screenshots/account_menu_mobile_xs.jpg)
 
 #### Functions:
 
@@ -125,4 +120,4 @@ Name|OS|Browser|Status
 
 ---
 
-YRGO - Christmas Assignment 2018 ( php ) - 2019-01-17 09:00 URL [www.leemann.se/fredrik](http://www.leemann.se/fredrik)
+YRGO - Christmas Assignment 2018 ( PHP ) - 2019-01-17 09:00 URL [www.leemann.se/fredrik](http://www.leemann.se/fredrik)
