@@ -18,14 +18,7 @@ _HTML CSS Javascript Markdown <- Readme.md_
 ~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
 
 1. [Click here to download this project as a zip-file](assets/fuzzy-memory.zip?raw=true)
-2. On Linux/Mac/BSD you can use wget from your terminal
-3. Extract the compressed zip-archive to your desktop and open index.html with preferably firefox or google chrome
-
-*Example wget*
-```bash
-wget https://bit.ly/2DIAuua -O fuzzy-memory.zip
-unzip fuzzy-memory.zip
-```
+2. Extract the compressed zip-archive to your desktop and open index.html with preferably firefox or google chrome
 
 ((You can also host this application on a web server))
 

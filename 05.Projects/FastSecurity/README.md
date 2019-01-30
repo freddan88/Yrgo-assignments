@@ -3,7 +3,7 @@
 Our mission was to build a page for the company Saab [fake] and its future flying car. The group consisted of Digital designers, Web developers, and Computer graphic designers 
 ​
 #### live preview:
-[http://www.leemann.se/fredrik/project/fast-security/](leemann.se/fredrik/project/fast-security)
+[leemann.se/fredrik/project/fast-security](http://www.leemann.se/fredrik/project/fast-security/)
 ​
 ## Goals and mission 
 * Mobile first
@@ -36,7 +36,7 @@ Download this repository as a zip-file and extract it anywere on your computer..
 Change the root of your webserver and point it to the directory fastsecurity, start the webserver and visit the page in your browser.
 
 Download:
-[assets/fastsecurity.zip](Click this link to download as a zip)
+[Click this link to download this project as a zip-file](assets/fastsecurity.zip?raw=true)
 ​
 ### Built with
 * PHP
