@@ -10,28 +10,15 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 ### New Installation
 1. Click this link to download as zip:
-*  [Click here to download this project](one-pager.zip)
+*  [Click here to download this project](one-pager.zip?raw=true)
 2. Extract the compressed zip-archive to the root of your web server
 3. Start your web server, open your browser and navigate to one-pager-master
 
-#### Installation and Usage
-
+~~#### Installation and Usage~~
 1. Click the green button "clone or download" at top of this github repository 
 2. For easy installation on Windows, Mac or Linux you can click "Download ZIP"
 3. Extract the compressed zip-archive to the root of your web server
 4. Start your web server, open your browser and navigate to one-pager-master
-
-###### Installation using git from terminal/Git-Terminal
-
-1. Open your terminal in Linux / MacOS or Windows
-2. cd to the folder where you want to clone this repository to
-3. Use the command below to Clone
-4. Start your web server, open your browser and navigate to one-pager
-
-*Example Git Clone*
-```bash
-git clone https://github.com/gsvendsen/one-pager.git
-```
 
 ###### Example Servers and links:
 - [XAMPP](https://www.apachefriends.org/index.html "Download XAMPP for Windows Linux Mac") 
