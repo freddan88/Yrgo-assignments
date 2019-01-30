@@ -9,7 +9,7 @@ _HTML CSS Javascript Markdown <- Readme.md_
 [Code License: MIT](https://choosealicense.com/licenses/mit/)
 
 #### Live preview:
-[http://www.leemann.se/fredrik/project/fuzzy-memory/](leemann.se/fredrik/project/fuzzy-memory)
+[leemann.se/fredrik/project/fuzzy-memory](http://www.leemann.se/fredrik/project/fuzzy-memory/)
 
 ~~1. Click the green button "clone or download" at top of this github repository~~
 
@@ -17,7 +17,7 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 ~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
 
-1. [Click this link to download this repository as a zip-file](assets/fuzzy-memory.zip)
+1. [assets/fuzzy-memory.zip?raw=true](Click here to download this project as a zip-file)
 
 2. On Linux/Mac/BSD you can use wget from your terminal
 
@@ -38,12 +38,7 @@ unzip fuzzy-memory.zip
 - [LAMP Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04 "Install LAMP on Ubuntu Linux")
 - [LAMP CentOS6](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-6 "Install LAMP on CentOS6 Linux")
 - [LAMP CentOS7](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7 "Install LAMP on CentOS7 Linux")
-- [Git](https://git-scm.com/downloads "Git downloads Mac Windows Linux/Unix") if you need or want to clone this repository to your computer
-
-~~*Example Git Clone*~~
-```bash
-git clone https://github.com/freddan88/fuzzy-memory.git
-```
+- [Git](https://git-scm.com/downloads "Git downloads Mac Windows Linux/Unix")
 
 #### Testers
 
@@ -59,7 +54,7 @@ Name|OS|Browser|Status
 
 #### Pictures:
 
-###### South Park Characters - Google Pictures
+###### Simpsons Characters - Google Pictures
 Shortened link: https://bit.ly/2r5I2Ac
 
 ###### Simpsons Wallpaper by Toisan on DeviantArt
