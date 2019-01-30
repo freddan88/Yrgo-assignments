@@ -8,17 +8,10 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 [Code License: MIT](https://choosealicense.com/licenses/mit/)
 
-### New Installation
-1. Click this link to download as zip:
-*  [Click here to download this project](one-pager.zip?raw=true)
+### Installation
+1. [Click here to download this project as a zip](one-pager.zip?raw=true)
 2. Extract the compressed zip-archive to the root of your web server
 3. Start your web server, open your browser and navigate to one-pager-master
-
-~~#### Installation and Usage~~
-1. Click the green button "clone or download" at top of this github repository 
-2. For easy installation on Windows, Mac or Linux you can click "Download ZIP"
-3. Extract the compressed zip-archive to the root of your web server
-4. Start your web server, open your browser and navigate to one-pager-master
 
 ###### Example Servers and links:
 - [XAMPP](https://www.apachefriends.org/index.html "Download XAMPP for Windows Linux Mac") 
