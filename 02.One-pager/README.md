@@ -10,7 +10,7 @@ _HTML CSS Javascript Markdown <- Readme.md_
 
 ### New Installation
 1. Click this link to download as zip:
-*  [one-pager.zip](Click here to download this project)
+*  [Click here to download this project](one-pager.zip)
 2. Extract the compressed zip-archive to the root of your web server
 3. Start your web server, open your browser and navigate to one-pager-master
 
