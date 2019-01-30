@@ -14,12 +14,10 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 [License: MIT](https://choosealicense.com/licenses/mit/)
 
 #### Live preview:
-[http://www.leemann.se/fredrik/project/fake-news/](leemann.se/fredrik/project/fake-news)
-
+[leemann.se/fredrik/project/fake-news](http://www.leemann.se/fredrik/project/fake-news/)
 
 #### Installation
-
-![Github Repository](https://github.com/freddan88/Yrgo-assignments/blob/master/03.PHP/fake-news/screenshots/screenshot-github.png)
+![Github Repository](screenshots/screenshot-github.png)
 
 ~~1. Click the green button "clone or download" at top of this github repository~~
 
@@ -27,12 +25,9 @@ _HTML CSS PHP Javascript Markdown <- Readme.md_
 
 ~~2. For easy instalation on Windows, Mac or Linux you can click "Download ZIP"~~
 
-1. [Click this link to download this repository as a zip-file](https://github.com/freddan88/Yrgo-assignments/raw/master/03.PHP/fake-news/assets/fake-news.zip)
-
+1. [assets/fake-news.zip?raw=true](Click here to download this project as a zip-file)
 2. On Linux/Mac/BSD you can use wget from your terminal
-
 3. Extract the compressed zip-archive to the root-folder of your webserver
-
 4. Start your webserver (xampp/wamp/mamp/lamp) and open the webpage in your browser
 
 *Example wget*
@@ -63,11 +58,11 @@ pre-requirements:
 **Example:**
 _http://{webserver}/fake-news_
 
-![Startpage](https://github.com/freddan88/Yrgo-assignments/blob/master/03.PHP/fake-news/screenshots/screenshot-startpage.png)
+![Startpage](screenshots/screenshot-startpage.png)
 *The above picture is the startpage were you can read all articles. They are sorted on date with the latest date first.
 If you press thumb-up or thumb-down you will add likes or dislikes. Every author will have a link to wikipedia, clicking this link will open a new tabb in your browser. Every authors name are linked to the page below "authors.php"...*
 
-![Authorpage](https://github.com/freddan88/Yrgo-assignments/blob/master/03.PHP/fake-news/screenshots/screenshot-authorpage.png)
+![Authorpage](screenshots/screenshot-authorpage.png)
 *The above picture is the authorspage which will filter the output to only show articles from a single author.
 This page also includes links to the authors wikipedia-page and also a link to authors.php for the current author.
 The arrow in the header will link you back to the startpage again...*
