@@ -24,3 +24,5 @@ This repository contains directories with assignment-files, here is a list:
 * [JavaScript](https://github.com/freddan88/Yrgo-assignments/tree/master/04.JavaScript)
 
 * [PHP](https://github.com/freddan88/Yrgo-assignments/tree/master/03.PHP)
+
+* [C#](https://github.com/freddan88/Yrgo-assignments/tree/master/06.C#)
