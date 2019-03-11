@@ -25,4 +25,4 @@ This repository contains directories with assignment-files, here is a list:
 
 * [PHP](https://github.com/freddan88/Yrgo-assignments/tree/master/03.PHP)
 
-* [C#](https://github.com/freddan88/Yrgo-assignments/tree/master/06.C#)
+* [C#](https://github.com/freddan88/Yrgo-assignments/tree/master/06.C%23)
