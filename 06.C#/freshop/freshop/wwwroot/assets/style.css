@@ -1,0 +1,253 @@
+/* Global Styling */
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 940px 1fr;
+    grid-template-rows: auto 200px 200px;
+    grid-template-areas: 
+    ". top-section ."
+    ". main-header ."
+    ". main-content .";
+}
+
+a, a:link, a:hover, a:visited, hr{
+    text-decoration: none;
+    color: black;
+}
+
+.top-section {
+    grid-area: top-section;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Bowlby One SC', cursive;
+    background-color: #E34D3A;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header {
+    grid-area: main-header;
+}
+
+.main-header__hero {
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header__hero h3{
+    margin: 0;
+    color: azure;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-header nav{
+    background-color: black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    grid-area: main-content;
+}
+
+#products{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 210px;
+    grid-gap: 20px;
+}
+
+.product-module__price, .product-price{
+    color: red;
+    padding-top: 3px;
+}
+
+/* Index Styling */
+
+.main-header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header ul li{
+    color: azure;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.product-module{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+
+.product-module img{
+    height: 140px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Product Styling */
+
+.product-description-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.product-description-section div{
+    flex: 1;
+}
+
+.product-description-section img{
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-header nav a{
+    color: whitesmoke;
+}
+
+.product_desc{
+    font-style: italic;
+}
+
+.cta-buyBtn{
+    margin: 25px 0;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #E34D3A;
+    font-weight: bold;
+    outline: none;
+}
+
+.main-content table{
+    border: none;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.main-content th{
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#specs-data tr:nth-child(odd){
+    background-color: #EEEEEE;
+}
+
+#specs-data td{
+    padding: 5px 15px;
+}
+
+.main-content form{
+    padding: 5px 0px;
+}
+
+.main-content input{
+    outline: none;
+}
+
+.main-content button{
+    outline: none;
+}
+
+/* Cart Styling */
+
+section.cart-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 140px;
+    grid-auto-rows: 140px;
+    grid-gap: 20px;
+}
+
+div.cart-item{
+    padding: 10px;
+    height: 140px;
+    background-color: #CCC;
+    display: flex;
+    position: relative;
+}
+
+.cart-item img{
+    max-width: 120px;
+    height: auto;
+    display: block;
+}
+
+.cart-item ul li{
+    display: block;
+    padding: 6px 12px;
+}
+
+.cart-item button{
+    position: absolute;
+    outline: none;
+    right: 10px;
+}
+
+.cart-items .col2{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+}
+
+.cart-items a{
+    margin: 0;
+    color: azure;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Customer Page */
+
+#customer-form form, #customer-form input, #customer-form label{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+#customer-form button{
+    margin: 50px;
+    padding: 20px;
+}
+
+/* Order Confirmation Page */
+
+.order-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value-text{
+    color: red;
+}
+
+section table{
+    margin: 0 auto;
+}
+
+section table td, section table th{
+    padding: 10px;
+}

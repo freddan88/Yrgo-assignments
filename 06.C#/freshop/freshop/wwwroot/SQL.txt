@@ -1,0 +1,56 @@
+Cart:
+SELECT product_id, cart_guid, pn, img, model, quantity, price 
+FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id 
+WHERE cart_guid = "f07eec75-df0f-4802-9ea8-7cb360e8ceb2";
+
+SELECT *, SUM(quantity) AS quantity_total
+FROM cart_items GROUP BY product_id;
+
+Order:
+SELECT product_id, cart_guid, pn, img, model, price, SUM(quantity) AS 'total_quantity'
+FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id 
+WHERE cart_guid = '532975b4-7aa6-42a2-b2ca-c1b5d9a42109' GROUP BY product_id;
+
+SELECT *, SUM(prices) AS total_price FROM (SELECT product_id, cart_guid, pn, img, model, quantity, price, quantity * price AS prices
+FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id 
+WHERE cart_guid = "532975b4-7aa6-42a2-b2ca-c1b5d9a42109") GROUP BY product_id
+
+Använd Nedan för order:
+SELECT product_id, cart_guid, pn, img, model, price, SUM(quantity) AS total_qty, SUM(prices) AS total_price 
+FROM (SELECT product_id, cart_guid, pn, img, model, quantity, price, quantity * price AS prices
+FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id 
+WHERE cart_guid = "532975b4-7aa6-42a2-b2ca-c1b5d9a42109") GROUP BY product_id
+
+SQL Code for total_order Value:
+SELECT *, SUM(total_price) AS order_value FROM (SELECT product_id, cart_guid, pn, img, model, price, SUM(quantity) AS total_qty, SUM(prices) AS total_price 
+FROM (SELECT product_id, cart_guid, pn, img, model, quantity, price, quantity * price AS prices
+FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id 
+WHERE cart_guid = "532975b4-7aa6-42a2-b2ca-c1b5d9a42109") GROUP BY product_id)
+
+Query order_nr:
+SELECT printf("%08d", id) AS order_nr FROM orders
+
+Query costumer: ?
+SELECT customers.* FROM customers LEFT JOIN cart_items ON customers.cart_guid = cart_items.cart_guid WHERE customers.cart_guid = '532975b4-7aa6-42a2-b2ca-c1b5d9a42100' GROUP BY customers.cart_guid
+
+Look at a single order:
+SELECT pn, brand, category, model, cart_items.quantity, cart_items.cart_guid FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id WHERE cart_guid IN (SELECT cart_guid FROM orders)
+
+CREATE TABLE IF NOT EXISTS "orders" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"cart_guid"	TEXT NOT NULL UNIQUE,
+	"placed_on"	DATETIME DEFAULT (datetime(CURRENT_TIMESTAMP))
+);
+
+-----------
+OrderItems:
+SELECT product_id, cart_guid, pn, img, model, price, SUM(quantity) AS total_qty, SUM(prices) AS total_price 
+FROM (SELECT product_id, cart_guid, pn, img, model, quantity, price, quantity * price AS prices
+FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id 
+WHERE cart_guid = "6bd25774-f3d5-4e32-8ea8-56debb220eeb") GROUP BY product_id
+
+
+OrderValue:
+SELECT SUM(total_price) AS order_value FROM (SELECT products.price * cart_items.quantity AS total_price FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id WHERE cart_items.cart_guid = "6bd25774-f3d5-4e32-8ea8-56debb220eeb")
+
+Order (Visar resultatet från OrderItems, OrderValue, customers och orders)

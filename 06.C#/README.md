@@ -5,8 +5,9 @@ This repository contains C# assignments, here is a list:
 
 ---
 
-##### C#
+##### C# and .NET
 
-|Assignment Name|Date & Time|Information|
-|-|-|-|
-|GuesingGame|2019-03-06|[Files](https://github.com/freddan88/Yrgo-assignments/tree/master/06.C%23/guessingGame2)|
+|Assignment Name|Date & Time|Info
+|-|-|-
+|GuesingGame|2019-03-06|Game
+|freshop|2019-04-04|E-commerce
