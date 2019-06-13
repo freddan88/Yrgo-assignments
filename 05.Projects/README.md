@@ -11,7 +11,7 @@ This repository contains directories with assignment files, here is a list:
 |-|-|
 |Date:|30/11 2018
 |Name:|[FastSecurity](https://github.com/freddan88/Yrgo-assignments/tree/master/05.Projects/FastSecurity)
-|Participators:|[Fredrik Leemann](https://github.com/freddan88 "freddan88"), [Sofia Garcia](https://github.com/sof1agarc1a "sof1agarc1a"), Dennis Lind, Eric Ellersten, Frida Staffansson, Viktor Larsson
+|Participators:|[Sofia Garcia](https://github.com/sof1agarc1a "sof1agarc1a"), [Fredrik Leemann](https://github.com/freddan88 "freddan88"), Dennis Lind, Eric Ellersten, Frida Staffansson, Viktor Larsson
 |-----|
 |Date:|27/05 2019
 |Name:|[GameOver](https://github.com/freddan88/Yrgo-assignments/tree/master/05.Projects/game-over)
